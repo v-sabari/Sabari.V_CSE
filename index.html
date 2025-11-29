@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sabari V — Portfolio</title>
+
+  <!-- AOS (Animate on Scroll) CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-circle"></div>
+    <div class="loader-text">SabariV</div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <a href="index.html" class="logo">Sabari V</a>
+
+    <div class="menu-btn" id="menuBtn" aria-label="Open menu">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="assets/resume.pdf" class="resume-btn" download>Resume</a></li>
+    </ul>
+
+    <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+      <i id="themeIcon" class="fa-solid fa-moon"></i>
+    </button>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero section">
+      <div class="hero-inner" data-aos="fade-up">
+        <div class="hero-left">
+          <h1>Hello, I'm <span class="name">Sabari V</span></h1>
+          <h2 class="typing" id="typing"></h2>
+          <p class="hero-sub">I build modern, responsive and meaningful projects with clean, performant code.</p>
+
+          <div class="hero-cta">
+            <a class="btn highlight" href="#projects">View Projects</a>
+            <a class="btn outline" href="assets/resume.pdf" download>Download Resume</a>
+          </div>
+
+          <div class="socials">
+            <a href="#" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- 3D Floating Profile -->
+        <div class="hero-right" data-tilt data-aos="fade-left">
+          <div class="profile-3d">
+            <img src="assets/images/profile.jpg" alt="Sabari V" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT (optional detailed) -->
+    <section id="about" class="section about" data-aos="fade-up">
+      <h2 class="section-title">About Me</h2>
+      <p>I am a Computer Science Engineering student with a passion for Web Development, Software Testing, and building practical applications. I focus on readability, maintainability, and performance when building projects. I enjoy learning new technologies and applying them to real-world problems.</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section" data-aos="fade-up">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="50">
+          <h3>Programming</h3>
+          <p>Java · Python · C</p>
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+          <h3>Web</h3>
+          <p>HTML · CSS · JavaScript</p>
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="150">
+          <h3>Database</h3>
+          <p>MySQL</p>
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+          <h3>Tools</h3>
+          <p>Git · VS Code · Postman</p>
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="250">
+          <h3>Soft</h3>
+          <p>Leadership · Communication · Problem-Solving</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section" data-aos="fade-up">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-grid">
+        <article class="project" data-aos="flip-left" data-aos-delay="60">
+          <img src="assets/images/project1.png" alt="Project 1" />
+          <div class="project-body">
+            <h3>E-Commerce Cart System</h3>
+            <p>Full shopping cart with product management, dynamic price calculation and responsive UI.</p>
+            <p class="tech">Tech: HTML · CSS · JavaScript · MySQL</p>
+            <a class="project-cta" href="#" target="_blank">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </article>
+
+        <article class="project" data-aos="flip-left" data-aos-delay="120">
+          <img src="assets/images/project2.png" alt="Project 2" />
+          <div class="project-body">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal website built to showcase projects, resume and contact.</p>
+            <p class="tech">Tech: HTML · CSS · JS</p>
+            <a class="project-cta" href="#" target="_blank">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section" data-aos="fade-up">
+      <h2 class="section-title">Education</h2>
+      <p class="edu-details">B.Tech — Computer Science & Engineering — ESEC College (2023–2027)</p>
+    </section>
+
+    <!-- BLOG (simple list) -->
+    <section id="blog" class="section" data-aos="fade-up">
+      <h2 class="section-title">Blog</h2>
+      <div class="blog-grid">
+        <!-- Example blog cards -->
+        <article class="blog-card">
+          <h3><a href="blog.html#post1">How I built an E-commerce cart (step-by-step)</a></h3>
+          <p class="muted">Nov 1, 2025 · Project Case Study</p>
+        </article>
+
+        <article class="blog-card">
+          <h3><a href="blog.html#post2">Getting started with automated testing</a></h3>
+          <p class="muted">Oct 20, 2025 · Testing</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" data-aos="fade-up">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact-wrap">
+        <div class="contact-left">
+          <p>If you'd like to contact me for internships or projects, send a message — I'll reply quickly.</p>
+
+          <div class="contact-info">
+            <p><i class="fa-solid fa-envelope"></i> yourmail@gmail.com</p>
+            <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/yourprofile</p>
+            <p><i class="fa-brands fa-github"></i> github.com/SabariV</p>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" id="name" required />
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input type="email" id="email" required />
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea id="message" rows="5" required></textarea>
+          </label>
+
+          <button type="submit" class="btn highlight">Send Message</button>
+          <p id="formStatus" class="muted"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Sabari V · Built with ❤️ · Dark Neon Theme</p>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <!-- Vanilla-tilt for 3D floating tilt -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.3/vanilla-tilt.min.js"></script>
+
+  <!-- Firebase SDKs (Authentication & Firestore) -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+  <!-- Your firebase config file (create firebase.js) -->
+  <script src="firebase.js"></script>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>
