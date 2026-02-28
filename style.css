@@ -91,7 +91,7 @@ display:flex;align-items:center;justify-content:center;padding:12px;box-shadow:0
 .blog-card{background:var(--card);padding:16px;border-radius:10px}
 .blog-card h3{margin:0 0 8px}
 .muted{color:var(--muted);font-size:14px}
-
+/* Hover effect for project cards */ .project:hover { transform: translateY(-6px); box-shadow: 0 12px 40px rgba(0, 234, 255, 0.25); transition: all 0.3s ease; }
 /* ---------- CONTACT ---------- */
 .contact-wrap{display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:start}
 .contact-left p{color:var(--muted)}
@@ -119,3 +119,5 @@ footer{padding:18px;text-align:center;border-top:1px solid rgba(0,234,255,0.04);
   .nav-links.open{height:300px;display:flex}
   .menu-btn{display:inline-block}
 }
+
+
