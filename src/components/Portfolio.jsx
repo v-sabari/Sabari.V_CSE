@@ -225,9 +225,9 @@ function Arrival() {
             </a>
           </Magnetic>
         </div>
-        <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-fog">
+        {/* <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-fog">
           scroll — hold — ⌘K anywhere
-        </div>
+        </div> */}
       </div>
     </section>
   );
