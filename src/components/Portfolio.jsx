@@ -547,7 +547,7 @@ function Contact() {
 
           <Magnetic strength={0.15}>
             <a
-              href="/sabari-venkatesan-resume.pdf"
+              href="/Sabari-Venkatesan-Resume.pdf"
               download="Sabari-Venkatesan-Resume.pdf"
               data-cursor="open"
               data-cursor-label="Download"
