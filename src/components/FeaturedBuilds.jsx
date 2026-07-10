@@ -41,7 +41,7 @@ export const projects = [
     role: "Full-stack developer",
     year: "2025",
     stack: ["Java", "Spring Boot", "React", "MySQL"],
-    href: "https://halleyx-workflow-engine.vercel.app/",
+    href: "https://halleyx-workflow-engine-5r1i.vercel.app/",
     repo: "https://github.com/v-sabari/halleyx-workflow-engine",
     summary:
       "A reusable component system for orchestrating internal workflows. Focus on responsive interfaces, cross-device polish, and clean state.",
