@@ -6,8 +6,6 @@ import { Magnetic } from "./Magnetic";
 import { FeaturedBuilds } from "./FeaturedBuilds";
 import portrait from "@/assets/sabari-portrait.jpeg";
 
-
-
 /* ----- background aurora + cursor light ----- */
 function Ambience() {
   const ref = useRef(null);
