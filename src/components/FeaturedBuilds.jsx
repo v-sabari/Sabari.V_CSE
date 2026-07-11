@@ -4,8 +4,10 @@ import { Magnetic } from "./Magnetic";
 import resumeforgeHero from "@/assets/resumeforge-hero.png";
 import halleyxHero from "@/assets/halleyx-hero.png";
 import userAppHero from "@/assets/user-app-hero.png";
+import campusConnectHero from "@/assets/campusconnect.png";
 import resumeforgeDashboard from "@/assets/resumeforge-dashboard.png";
 import userAppDashboard from "@/assets/user-app-dashboard.png";
+import campusConnectDashboard from "@/assets/campusconnect-dashboard.png";
 
 export const projects = [
   {
@@ -88,6 +90,34 @@ export const projects = [
     secondaryImage: userAppDashboard,
     secondaryLabel: "security dashboard",
     domain: "user-app-delta-pearl.vercel.app",
+  },
+  {
+    index: "04",
+    title: "Campus Connect",
+    role: "Full-stack developer",
+    year: "2026",
+    stack: ["Java", "Spring Boot", "React", "React Router", "JWT", "RBAC"],
+    href: "https://event-two-ivory.vercel.app/",
+    repo: "https://github.com/v-sabari/event",
+    summary:
+      "A role-based event management platform for colleges — students discover and register for events, organizers run them, and faculty/admins oversee venues, departments, and reporting.",
+    problem:
+      "Campus events run on scattered forms and spreadsheets — no single system that gives students, organizers, and faculty the right view of the same event.",
+    approach:
+      "Five role-scoped dashboards (Student, Organizer, Faculty/HOD, Super Admin) behind route guards that mirror the Spring Boot API's own @PreAuthorize checks, with JWT auth, silent token refresh, and QR-based registration passes.",
+    outcome:
+      "Live with seeded demo accounts for every role — students register and get a QR pass in seconds, organizers track rosters, and admins get venue, department, and reporting tools.",
+    metrics: [
+      { k: "roles", v: "5 tiers" },
+      { k: "auth", v: "JWT · refresh" },
+      { k: "passes", v: "QR-based" },
+    ],
+
+    accent: "oklch(0.75 0.18 300)",
+    image: campusConnectHero,
+    secondaryImage: campusConnectDashboard,
+    secondaryLabel: "student dashboard",
+    domain: "event-two-ivory.vercel.app",
   },
 ];
 

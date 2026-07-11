@@ -6,7 +6,7 @@ import { Magnetic } from "./Magnetic";
 import { FeaturedBuilds } from "./FeaturedBuilds";
 import portrait from "@/assets/sabari-portrait.jpeg";
 
-const CURRENTLY_BUILDING = "Campus Connect";
+
 
 /* ----- background aurora + cursor light ----- */
 function Ambience() {
@@ -164,7 +164,7 @@ function Arrival() {
           <div className="text-bone">status</div>
           <div className="flex items-center gap-2">
             <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-acid" />
-            currently building — {CURRENTLY_BUILDING}
+            open to new builds
           </div>
         </div>
         <div className="col-span-6 md:col-span-3">
